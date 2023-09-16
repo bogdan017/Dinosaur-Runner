@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+}
+
+canvas {
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.gameOverContainer {
+  display: flex;
+}
+
+.gameOver,
+#restartGame {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: none;
+}
+
+#restartGame {
+  top: 60%;
+}
+
+
